@@ -1,0 +1,14 @@
+1.edit file -> /etc/mysql/my.cnf
+Insert string ->
+ [mysqld]
+max_allowed_packet=900M
+sql_mode = STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+2.edit file -> /etc/mysql/conf.d/mysql.cnf
+insert string ->
+[mysqld]
+max_allowed_packet=900M
+3. edit file -> /etc/mysql/conf.d/mysqldump.cnf
+edit string -> max_allowed_packet=16M   ON 900M
+4.edit file -> etc/mysql/mysql.conf.d/mysqld.cnf
+edit string -> max_allowed_packet=16M ON 900M
+5.sudo service mysql restart.

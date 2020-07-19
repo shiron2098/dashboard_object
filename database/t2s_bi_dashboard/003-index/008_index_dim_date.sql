@@ -1,0 +1,1 @@
+ALTER TABLE Dim_Date ADD INDEX (date);

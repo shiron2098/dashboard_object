@@ -1,0 +1,7 @@
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 3
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 3
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 4
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 16
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 16
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 16
+require_once(/var/www/html/tech2success-bi-dashboard/common/log/../../config/path_file.php): failed to open stream: No such file or directory = /var/www/html/tech2success-bi-dashboard/common/log/logbasic.php = 16

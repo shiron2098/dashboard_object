@@ -1,0 +1,1 @@
+ALTER TABLE routes ADD INDEX (rte_id);

@@ -1,0 +1,1 @@
+ALTER TABLE operators ADD INDEX (operator_id);

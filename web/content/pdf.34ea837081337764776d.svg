@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16" shape-rendering="auto">
+  <path
+     style="fill:none;fill-opacity:1;stroke:#455672;stroke-width:1;"
+     d="m 3.5,2.5 6,0 4,4 0,8 -10,0 z" />
+  <path
+     style="fill:none;fill-opacity:1;stroke:#455672;stroke-width:1;"
+     d="m 9.5,2.5 0,4 4,0" />
+  <rect
+     style="fill:#455672;fill-opacity:1;stroke:none;stroke-width:1;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+     id="rect4144"
+     width="8"
+     height="4"
+     x="2"
+     y="8" />
+  <g>
+    <path
+       d="m 3.1462576,9 0.8570128,0 q 0.3822358,0 0.5860949,0.1701274 0.2052002,0.1687876 0.2052002,0.4822506 0,0.3148024 -0.2052002,0.48493 -0.2038591,0.168787 -0.5860949,0.168787 l -0.3406592,0 0,0.693905 -0.5163536,0 0,-2 z m 0.5163536,0.3737442 0,0.558607 0.2856709,0 q 0.150212,0 0.2320238,-0.072338 0.081812,-0.073677 0.081812,-0.2076356 0,-0.1339585 -0.081812,-0.2062962 -0.081812,-0.072338 -0.2320238,-0.072338 l -0.2856709,0 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.74673271px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#fff;fill-opacity:1" />
+    <path
+       d="m 5.6743784,9.3898213 0,1.2203597 0.1850825,0 q 0.3165181,0 0.4828241,-0.156731 0.1676473,-0.156731 0.1676473,-0.4554582 0,-0.2973874 -0.1663061,-0.452779 Q 6.1773201,9.3898213 5.8594609,9.3898213 l -0.1850825,0 z m -0.5163536,-0.3898185 0.5445183,0 q 0.4560005,0 0.6786361,0.06564 0.2239767,0.064299 0.3835769,0.2196915 0.1408237,0.1352978 0.2092238,0.3121227 0.0684,0.1768248 0.0684,0.400535 0,0.226389 -0.0684,0.404554 -0.0684,0.176824 -0.2092238,0.312122 Q 6.6038148,10.87006 6.3784968,10.9357 6.1531789,11 5.7025431,11 l -0.5445183,0 0,-1.9999958 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.74673271px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#fff;fill-opacity:1" />
+    <path
+       d="m 7.4380276,9 1.3934841,0 0,0.3898193 -0.8771305,0 0,0.3724046 0.8248245,0 0,0.3898191 -0.8248245,0 0,0.847957 -0.5163536,0 0,-2 z"
+       style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:2.74673271px;font-family:sans-serif;-inkscape-font-specification:'sans-serif Bold';fill:#fff;fill-opacity:1" />
+  </g>
+</svg>
