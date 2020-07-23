@@ -74,7 +74,7 @@ class refresh extends abstractFunctionAut
         private function deletetoken($id){
             try {
               PDORealization::Realization($this->link, "delete FROM refresh_tokens
-                                      where id=?",array($id));
+                                      where id=?",array($id),object);
             } catch (Exception $e) {
                 log::logInsert($e->getMessage() .'  ' . $id ,log_file_authentication,ERROR);
                 echo $e->getMessage();
