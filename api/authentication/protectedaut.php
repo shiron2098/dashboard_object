@@ -34,7 +34,7 @@ class protectedaut
                 $_SESSION['AUT'] = true;
             } else {
                 $_SESSION['AUT'] = false;
-                log::logInsert('protectaut_autification false acces-token time end #'  . $decoded->id ,log_file_authentication,ERROR);
+            //    log::logInsert('protectaut_autification false acces-token time end #'  . $decoded->id ,log_file_authentication,ERROR);
                 http_response_code(403);
             }
 

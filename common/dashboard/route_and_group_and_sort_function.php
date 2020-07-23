@@ -22,13 +22,15 @@ class route_and_group_and_sort_function
                 }
             }
         } else {
-            log::logInsert('result null route_chart_per_collection in table for route #' . $datenum,log_file_route_name_and_folder,ERROR);
+          //  log::logInsert('result null route_chart_per_collection in table for route #' . $datenum,log_file_route_name_and_folder,ERROR);
+            return null;
         }
         if (!empty($array['0'])) {
             $stringkey = "'" . implode("','", $array) . "'";
             return $stringkey;
         }else{
-            log::logInsert('array null route_chart_per_collection in table for route #' . $datenum,log_file_route_name_and_folder,ERROR);
+           // log::logInsert('array null route_chart_per_collection in table for route #' . $datenum,log_file_route_name_and_folder,ERROR);
+            return null;
         }
     }
     protected function groupKey($link,$groupkey){

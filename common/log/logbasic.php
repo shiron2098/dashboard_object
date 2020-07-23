@@ -17,7 +17,7 @@ class logbasic extends RotatingFileHandler
     {
         while (true) {
             $log = new Logger('security');
-            $stream = new RotatingFileHandler($name . $number, maxfiles, $level, true, null, false);
+            $stream = new RotatingFileHandler($name . $number, maxfiles, $level, true, 0777, false);
             $formatter = new LineFormatter(output, dateFormat);
             $stream->setFormatter($formatter);
             $log->pushHandler($stream);
@@ -32,7 +32,6 @@ class logbasic extends RotatingFileHandler
                 }
             } else {
               logbasic::message($log,$text,$level);
-                chmod($path,0777);
                 return $number;
             }
         }

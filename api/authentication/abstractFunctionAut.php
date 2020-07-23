@@ -6,6 +6,7 @@ require_once __DIR__ . '/../../common/PDORealization.php';
 require_once __DIR__ . '/../../config/t2s_users.php';
 require_once __DIR__ . '/../../common/log/log.php';
 require_once __DIR__ . '/../../config/token_and_refresh.php';
+require_once __DIR__ . '/../../config/params_t2s_dashboard.php';
 
 header("Access-Control-Allow-Origin: * ");
 header("Content-Type: application/json");

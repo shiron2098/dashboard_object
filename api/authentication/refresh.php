@@ -24,10 +24,11 @@ class refresh extends abstractFunctionAut
         if (!empty($jsonObj->refreshToken) && isset($jsonObj->refreshToken)) {
             $acess = $jsonObj->accessToken;
             $decodedacess = JWT::decode($acess, userglobalkey, array('HS256'));
+            $time = time();
             $key = $this->tokenKey($decodedacess->idstring);
             try {
                 $decoded = JWT::decode($jsonObj->refreshToken, $key->token_key, array('HS256'));
-                if ($decoded->ext > time()) {
+                if ($decoded->ext > $time) {
                     $newAccess = $this->CreateTokenKeyAcess();
                     $newRefresh = $this->CreateTokenKeyRefresh($this->guid(),$decodedacess);
                     if (!empty($newRefresh)&&!empty($newAccess)) {
